@@ -2,9 +2,9 @@ import React from 'react';
 
 const Navigation = () => {
     return(
-        <div>
-            
-        </div>
+        <nav style={{display: 'flex', justifyContent: 'flex-end'}}>
+            <p className="f3 pointer pa3 underline link dim black">Sign Out</p>
+        </nav>
     )
 }
 
